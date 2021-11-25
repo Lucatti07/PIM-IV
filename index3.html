@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main3.css">
+    <title>Quartos</title>
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Quartos</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome do quarto</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <label for="uf">Tipo de quarto:</label>
+                    <select name="suite" id="uf">
+                        <option value="0">Escolha seu quarto</option>
+                        <option value="1">Suite Solteiro</option>
+                        <option value="2">Suite Casal</option>
+                        <option value="3">Suite Luxo</option>
+                        <option value="4">Suite Premium</option>
+                    </select>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="valor" id="valor" class="inputUser" required>
+                    <label for="valor" class="labelInput">Valor</label>
+                </div>
+                <br>
+                <p>Status:</p>
+                <input type="radio" id="ativo" name="status" value="ativo" required>
+                <label for="ativo">Ativo</label>
+                <br>
+                <input type="radio" id="inativo" name="status" value="inativo" required>
+                <label for="inativo">Inativo</label>
+                <br>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="camas" id="camas" class="inputUser" required>
+                    <label for="camas" class="labelInput">Numero de camas</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="descricao" id="descricao" class="inputUser" required>
+                    <label for="descricao" class="labelInput">Descrição</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <label for="uf">Detalhes:</label>
+                    <select name="suite" id="uf">
+                        <option value="0">Escolha os detalhes</option>
+                        <option value="1">Ar condicionado</option>
+                        <option value="2">Toalhas reserva</option>
+                        <option value="3">Produtos de higiene</option>
+                        <option value="4">Roupa de cama</option>
+                    </select>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
